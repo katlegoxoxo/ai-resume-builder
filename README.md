@@ -6,7 +6,9 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Xcjjogf6gAanYqj6vnbB90E7zXesinb5
+View thid app in AI Studio:
+
+https://ai-resume-builder-enjl207ml-katlegoxxxs-projects.vercel.app/
 
 ## Run Locally
 
