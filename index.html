@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intelligent Resume Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Lora', 'serif'],
+              mono: ['Roboto Mono', 'monospace'],
+              roboto: ['Roboto', 'sans-serif'],
+              'open-sans': ['"Open Sans"', 'sans-serif'],
+              lato: ['Lato', 'sans-serif'],
+              merriweather: ['Merriweather', 'serif'],
+              'playfair-display': ['"Playfair Display"', 'serif'],
+              montserrat: ['Montserrat', 'sans-serif'],
+              nunito: ['Nunito', 'sans-serif'],
+              raleway: ['Raleway', 'sans-serif'],
+            },
+            colors: {
+              primary: {
+                DEFAULT: '#2563eb',
+                light: '#000000',
+                dark: '#1d4ed8',
+              },
+              secondary: '#4b5563',
+              accent: '#10b981',
+            },
+            boxShadow: {
+              '2xl-spread': '0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 0 15px -5px rgba(0, 0, 0, 0.1)',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&family=Nunito:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.13.0",
+    "jspdf": "https://esm.sh/jspdf@^3.0.1",
+    "html2canvas": "https://esm.sh/html2canvas@^1.4.1",
+    "docx": "https://esm.sh/docx@^9.5.1",
+    "lucide-react": "https://esm.sh/lucide-react@^0.539.0",
+    "immer": "https://esm.sh/immer@^10.1.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-50">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
