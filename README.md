@@ -1,7 +1,7 @@
 
 
 
-View thid app in AI Studio:
+View this app in AI Studio:
 
 https://ai-resume-builder-enjl207ml-katlegoxxxs-projects.vercel.app/
 
